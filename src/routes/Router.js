@@ -24,7 +24,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: '/admin/user/transaction',
+    path: '/admin/transaction',
     element: (
       <ProtectedRoute>
         <AdminTransactionPage />
